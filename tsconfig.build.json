@@ -1,0 +1,17 @@
+{
+    "extends": "./tsconfig.base.json",
+    "exclude": [
+        "node_modules",
+        "**/*/*.spec.tsx",
+        "**/*/*.spec.ts",
+        "**/*/*.test.tsx",
+        "**/*/*.test.ts",
+        "**/*/stories.tsx",
+        ".storybook/**",
+        "src/mocks",
+        "src/test-utils",
+        "**/*/example.tsx"
+    ],
+    "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
+

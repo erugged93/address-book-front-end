@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "strict": true,
+      "jsx": "react",
+      "experimentalDecorators": true,
+      "lib": ["dom", "esnext"],
+      "esModuleInterop": true,
+      "baseUrl": "./src",
+      "outDir": "./dist",
+      "skipLibCheck": true,
+      "resolveJsonModule": true,
+      "declaration": true,
+      "types": ["@emotion/core", "jest"],
+      "sourceMap": true
+    }
+}
