@@ -3,10 +3,8 @@ import { Router } from "@reach/router";
 import { Global } from "@emotion/core";
 import styled from "@emotion/styled";
 
-import { EventDetails } from "../EventDetails";
 import { EmptyPage } from "./empty-page";
 import { styles } from "./globalStyles";
-import { EventsPage } from "../Events/component";
 
 export const App = () => {
     return (
